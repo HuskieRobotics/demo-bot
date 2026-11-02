@@ -288,6 +288,9 @@ public abstract class SwerveConstants {
   private static final boolean MK4N_L3_PLUS_CAN_CODER_INVERTED = false;
 
   /* MK4n L2 Plus */
+  /*
+   * For the demo bot, there are 4 MK4n L2+ swerves
+   */
   // we might have to have differing inversions based on the shape of the mk4n's on the new robot
   private static final double MK4N_L2_PLUS_DRIVE_GEAR_RATIO =
       1 / ((16.0 / 50.0) * (27.0 / 17.0) * (15.0 / 45.0));
